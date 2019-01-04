@@ -1,0 +1,14 @@
+# Activate virtual environment
+source venv/bin/activate
+
+# Service account key for Google Cloud in json format, you can download this at https://console.cloud.google.com. Navigate to the project folder and then go to APIs -> Credentials -> Create credentials -> Service account key
+export GOOGLE_APPLICATION_CREDENTIALS=
+
+# Google Cloud project id
+export PROJECT_ID=
+
+# CloudSQL database settings
+export CLOUDSQL_USER=
+export CLOUDSQL_PASSWORD=
+export CLOUDSQL_DATABASE=
+export CLOUDSQL_CONNECTION_NAME=
